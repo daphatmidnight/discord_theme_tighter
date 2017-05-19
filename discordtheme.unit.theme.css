@@ -1,0 +1,128 @@
+/* This will automatically update your theme to the latest release */
+@import "https://rawgit.com/AlexFlipnote/Discord_Theme/master/theme.css";
+
+/*
+  How to add plugins :D
+  1. Just add any @import from either my PLUGINS.md file or find some other @import stuff
+  2. Add them under this comment
+  3. Enjoy some fun stuff :P
+*/
+@import "https://rawgit.com/AlexFlipnote/Discord_Theme/master/assets/minimalStatusPicker.css";
+@import "https://cdn.rawgit.com/PikaDude/Discord-Fade-Anims/master/Discord-Fade-Anims.css";
+@import "https://rawgit.com/jakeoid/33a608c852bf890e361523d245664882/raw/47c999e5c9b12cdf20d7d946f9b3493eff8eae1d/semi-monokai.css";
+@import "https://rawgit.com/AlexFlipnote/Discord_Theme/master/assets/hideSearch.css";
+.message-group-blocked-btn { display: none; }
+code { font-family: "Input Mono", monospace; font-size: 11px; }
+.typing .ellipsis { display: none; }
+.message-group { border-bottom: none; }
+.account { height: 45px; background: var(--dark-highlight); }
+.channels-wrap { width: 225px; }
+.channel-textarea-inner {
+  margin-top: 1px;
+  margin-bottom: 2px;
+}
+.guild-channels .toggle-muted-text-channels a {
+  text-decoration: none;
+}
+.guild-channels .toggle-muted-text-channels a:before {
+  width:0;height:0;background:none;
+}
+#rtc-connection {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  background: var(--dark-highlight);
+}
+.chat>.title-wrap { min-height: 45px; }
+.message-group { padding: 10px 0; }
+
+.guild-channels .channel-text.unread:not(.selected):not(.channel-muted):before {
+  height: 9px !important;
+  margin: 0px;
+  width: 5px;
+  top: 13px !important;
+  background: white;
+  left: 7px;
+}
+
+.guild-header header {
+	height: 45px;
+  padding: 10px;
+  padding-left: 20px;
+}
+.chat>.title-wrap>.title {
+  font-size: inherit;
+}
+.guild-separator { display: none; }
+.search-header { height: 45px; }
+:root{
+  --notif: #e62358;
+  --accent: #e62358;
+  --dark-primary: #212121;
+  --dark-secondary: #303030;
+  --dark-highlight: #181818;
+  --nsfw-image: url("https://i.imgur.com/7lCcU2X.jpg");
+}
+
+.guilds-wrapper {
+  width: 45px;
+}
+.guilds-wrapper .guilds {
+  padding-left: 8px;
+}
+.guilds-wrapper .guilds .guild .guild-inner a {
+  width: 30px;
+  height: 30px;
+}
+.guilds-wrapper .guilds .guild .avatar-small {
+  background-size: 30px 30px;
+}
+.guilds-wrapper .guilds .guild {
+  width: 30px;
+  height: 30px;
+}
+.guilds-wrapper .guilds .friends-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.guilds-wrapper .guilds .guild .guild-inner {
+  border-radius: 50% !important;
+}
+.guild.unread .avatar-small,
+.dms .avatar-small {
+  border: 2px solid var(--notif);
+  box-shadow: inset 0 0 0 2px var(--dark-highlight);
+  border-radius: 50% !important;
+  box-sizing: border-box;
+  background-size: 26px 26px;
+}
+.dms .guild .badge, .guilds .guild.unread .badge, .guilds .guild .badge {
+  transform: none !important;
+}
+.guilds-wrapper .guilds .guild.selected:before,
+.guilds-wrapper .guilds .guild.selected.unread:before,
+.guilds-wrapper .guilds .guild.unread:before {
+  visibility: none !important;
+  display: none !important;
+}
+.guilds-wrapper .guilds .guild.audio .guild-inner:after {
+  display: none;
+}
+.guilds-wrapper .guilds .guild.selected .avatar-small {
+  border: 2px solid white;
+  box-shadow: inset 0 0 0 2px var(--dark-highlight);
+  border-radius: 50% !important;
+  box-sizing: border-box;
+  background-size: 26px 26px;
+}
+.guild.audio .avatar-small {
+  border: 2px solid #43b581;
+  box-shadow: inset 0 0 0 2px var(--dark-highlight);
+  border-radius: 50% !important;
+  box-sizing: border-box;
+  background-size: 26px 26px;
+}
+.guilds-wrapper .guild.guilds-add {
+  font-size: 30px;
+  line-height: 70%;
+}
