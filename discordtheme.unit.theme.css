@@ -69,18 +69,13 @@ code { font-family: "Input Mono", monospace; font-size: 11px; }
 .guilds-wrapper .guilds {
   padding-left: 8px;
 }
-.guilds-wrapper .guilds .guild .guild-inner a {
-  width: 30px;
-  height: 30px;
-}
 .guilds-wrapper .guilds .guild .avatar-small {
   background-size: 30px 30px;
 }
-.guilds-wrapper .guilds .guild {
-  width: 30px;
-  height: 30px;
-}
-.guilds-wrapper .guilds .friends-icon {
+.guilds-wrapper .guilds .guild .guild-inner a,
+.guilds-wrapper .guilds .guild,
+.guilds-wrapper .guilds .friends-icon,
+.guilds-wrapper .guilds-error {
   width: 30px;
   height: 30px;
 }
@@ -125,4 +120,8 @@ code { font-family: "Input Mono", monospace; font-size: 11px; }
 .guilds-wrapper .guild.guilds-add {
   font-size: 30px;
   line-height: 70%;
+}
+.guilds-wrapper .guilds-error {
+  font-size: 17px;
+  line-height: 160%;
 }
