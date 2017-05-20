@@ -17,9 +17,16 @@ code { font-family: "Input Mono", monospace; font-size: 11px; }
 .message-group { border-bottom: none; }
 .account { height: 45px; background: var(--dark-highlight); }
 .channels-wrap { width: 225px; }
-.channel-textarea-inner {
+.channel-textarea-inner,
+.channel-textarea.has-results .channel-textarea-inner {
   margin-top: 1px;
   margin-bottom: 2px;
+}
+.theme-dark .channel-textarea-autocomplete-inner:after {
+  border-bottom: none;
+}
+.channel-textarea-autocomplete-inner {
+  bottom: 0;
 }
 .guild-channels .toggle-muted-text-channels a {
   text-decoration: none;
