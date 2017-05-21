@@ -7,6 +7,12 @@
 /*
  * # Change log
  *
+ * ## [1.1.1] Revision 6: 2017-05-21
+ * ### Fixed
+ * - Apparently I “fixed” previous issue by making the selector select
+ * nothing at all which introduced the following issue.
+ * - Popout: Remove server option margin.
+ *
  * ## [1.1.0] Revision 5: 2017-05-21
  * ### Added
  * - Background: Add optional background.
@@ -258,10 +264,6 @@ body, .callout-backdrop {
   background: var(--dark-secondary);
   width: 225px;
 }
-.popout.popout-bottom:not(.popout-bottom-right, .search-popout) {
+.popout.popout-bottom {
   margin-top: 0;
-  left:0 !important;
-  margin-left: 45px;
-  width: 225px !important;
-  transform: none !important;
 }
