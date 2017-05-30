@@ -32,5 +32,10 @@ I'm not gonna make another one for now.
 ### I really don't like what you did to the search popup and such.
 Neither did I. It was a lazy fix.
 
+### Why didn't you make it a plugin for Discord_Theme?
+Because my changes felt a bit too personal and opinionised. I added changes upon changes and now it does not really have a single purpose anymore (so, Discord Theme Tighter is not really the best name since I did more than tighten it up).
+
+However, feel free to cherrypick stuff and make it its own plugin and such. I don't mind at all.
+
 ### I wanna insult you in your face. (Or have a nice chat. Or bring up an issue with the theme.)
 Okay just contact me on Discord: `unit#1753`
