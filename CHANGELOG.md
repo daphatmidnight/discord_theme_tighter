@@ -1,6 +1,9 @@
 # Change log
 Change log for "Discord_Theme" ft. unit. Original theme by AlexFlipnote, remixed by unit. Credits to Tohru Adachi.
 
+## [1.1.4] - 2017-05-30
+Moved from Gist to GitHub and added a README and changed some file names wow!
+
 ## [1.1.3] Revision 10: 2017-05-30
 ### Added
 - Stylesheets that import my theme for autotheming in BD and BD.
