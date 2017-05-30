@@ -4,56 +4,6 @@
  */
 @import "https://rawgit.com/AlexFlipnote/Discord_Theme/master/theme.css";
 
-/*
- * # Change log
- *
- * ## [1.1.2] Revision 7: 2017-05-29
- * ### Added
- * - Move fixes that might get implemented in the base theme to Fixes.
- * - Fixes: Change emoji behaviour to be more like Discord iOS. (Experimental)
- * ### Fixed
- * - Servers: Center plus sign in server add button.
- *
- * ## [1.1.1] Revision 6: 2017-05-21
- * ### Fixed
- * - Apparently I “fixed” previous issue by making the selector select
- * nothing at all which introduced the following issue.
- * - Popout: Remove server option margin.
- *
- * ## [1.1.0] Revision 5: 2017-05-21
- * ### Added
- * - Background: Add optional background.
- * ### Fixed
- * - Popout: Should not interfere with other popouts than the server options.
- *
- * ## [1.0.0] Revision 4: 2017-05-21
- * ### Added
- * - Write stylesheet properly.
- * - Add change log.
- * - Tweaks: Tighten up message whitespace.
- * - Tweaks: Add your favourite emoji as default static emoji button.
- * - Tweaks: Unboldify new messages bar a little.
- * - Channels: Make height of channel 30px.
- * - Members: Initial uncozyficating.
- * - Horizontals: Uncozyficate DM horizontal bars.
- * - Popout: Initial uncozyficating.
- * ### Changed
- * - (I forgot.)
- *
- * ## [0.1.2] Revision 3: 2017-05-20
- * ### Added
- * - Horizontals: Make textarea stay 45px when completing user or emoji.
- *
- * ## [0.1.1] Revision 2: 2017-05-20
- * ### Added
- * - Servers: Uncozyficate guilds error icon.
- * ### Changed
- * - Clean up in Horizontals.
- *
- * ## [0.1.0] Initial commit: 2017-05-19
- * Initial commit. Fuck everything that happened before that.
- *
- */
 
 /*
  * Imports
@@ -74,6 +24,8 @@
   --dark-secondary: #303030;
   --dark-highlight: #181818;
   --nsfw-image: url("https://i.imgur.com/7lCcU2X.jpg");
+  --emoji-image: url("https://i.imgur.com/8azxDEj.png");
+  --background-image: url("https://i.imgur.com/U55AE8Y.jpg");
 }
 
 /*
@@ -90,7 +42,7 @@ code {
   padding: 10px 0; /* Might as well make whitespace a bit tighter */
 }
 .channel-textarea-emoji>.sprite-item {
-  background-image: url("https://i.imgur.com/8azxDEj.png") !important;
+  background-image: var(--emoji-image) !important;
   /*
    Alternatively, grab another blob emoji from this album:
    https://imgur.com/a/ceGCG
