@@ -1,6 +1,8 @@
 # Change log
 Change log for "Discord_Theme" ft. unit. Original theme by AlexFlipnote, remixed by unit. Credits to Tohru Adachi.
 
+The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
+
 ## [1.1.4] - 2017-05-30
 Moved from Gist to GitHub and added a README and changed some file names wow!
 
