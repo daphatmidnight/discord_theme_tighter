@@ -1,3 +1,7 @@
+# THIS PROJECT IS ABANDONED
+go here instead https://github.com/AlexFlipnote/Discord_Theme
+
+
 # Discord Theme Tighter
 Discord was still too cozy. So I actually took AlexFlipnote's theme and made it tighter. My first line on the theme is just an import to that theme. Credits to Alex.
 
